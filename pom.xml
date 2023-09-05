@@ -90,7 +90,8 @@
                                 <configuration>
                                     <keyname>${gpg.keyname}</keyname>
                                     <gpgArguments>
-                                        <arg>--no-tty</arg>
+                                        <arg>--pinentry-mode</arg>
+                                        <arg>loopback</arg>
                                     </gpgArguments>
                                 </configuration>
                             </execution>
