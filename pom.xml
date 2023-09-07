@@ -6,11 +6,11 @@
 
     <groupId>io.github.nilswende</groupId>
     <artifactId>actions-test</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Test Github Actions.</description>
-    <url>https://github.com/nilswende/actions-test</url>
+    <url>${url}</url>
 
     <licenses>
         <license>
@@ -29,7 +29,7 @@
     <scm>
         <connection>scm:git:${project.scm.url}</connection>
         <developerConnection>scm:git:${project.scm.url}</developerConnection>
-        <url>https://github.com/nilswende/actions-test.git</url>
+        <url>${url}.git</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -37,6 +37,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <url>https://github.com/nilswende/actions-test</url>
     </properties>
 
     <dependencyManagement>
